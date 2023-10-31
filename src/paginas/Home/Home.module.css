@@ -1,0 +1,347 @@
+.post {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post aside {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 50px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.significado {
+    width: 100%;
+    height: auto;
+    padding: 40px 50px;
+    box-sizing: border-box;
+}
+
+.significado aside {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.significado h1 {
+    color: #833AB4
+}
+
+.info {
+    width: 100%;
+    height: auto;
+    padding: 40px 50px;
+    box-sizing: border-box;
+    position: relative;    
+}
+
+.info section {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.info aside,
+.info article {
+    width: 50%;
+    height: auto;
+}
+
+.info aside {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info h3,
+.agrupamento h3,
+.bloco1 h3,
+.bloco2 h3,
+.historia h3 {
+    color: #833AB4
+}
+
+.info aside h5,
+.agrupamento h5,
+.bloco1 h5,
+.bloco2 h5,
+.historia h5 {
+    color: #FF0000;
+}
+
+.significado p,
+.info p,
+.agrupamento p {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.bloco1 p,
+.bloco2 p {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.historia p {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.info article {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.info article img {
+    width: 90%;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.agrupamento {
+    width: 100%;
+    height: auto;
+    padding: 40px 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.agrupamento section {
+    width: 100%;
+    max-width: 1200px;
+    padding: 40px 50px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.agrupamento aside {
+    width: 100%;
+    height: auto;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.agrupamento article {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.agrupamento article img {
+    width: 265px;
+    height: 265px;
+    object-fit: cover;
+    object-position: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.agrupamento article img:hover {
+    top: -5px;
+    transition: all 1.5s ease;
+}
+
+.bloco1,
+.bloco2 {
+    width: 100%;
+    height: auto;
+    padding: 80px 50px;
+    box-sizing: border-box;
+    position: relative; 
+    background-color: rgba(229, 229, 229, 0.5);
+}
+
+.bloco1 section,
+.bloco2 section {
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px 0;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.bloco1 aside,
+.bloco2 aside {
+    padding-top: 20px;
+}
+
+.bloco1 aside,
+.bloco1 article,
+.bloco2 aside,
+.bloco2 article {
+    width: 50%;
+    height: auto;
+}
+
+
+.bloco1 article img,
+.bloco2 article img {
+    width: 90%;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;    
+}
+
+.historia {
+    width: 100%;
+    height: auto;
+    padding: 80px 50px;
+    box-sizing: border-box;
+    background-color: #ffe4c4;
+}
+
+.historia aside {
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px 0;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.listaImagens {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.listaImagens img {
+    width: 25%;
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media(max-width: 786px) {
+    .post aside {
+        padding: 0 20px;
+        box-sizing: border-box;
+        text-align: center;
+        justify-content: center;
+    }    
+
+    .significado,
+    .info,
+    .bloco1,
+    .bloco2,
+    .historia {
+        padding: 40px 20px;
+    }
+
+    .bloco1 section,
+    .bloco2 section,
+    .info section {
+        flex-wrap: wrap;
+        justify-content: center;        
+    }
+
+    .info aside h3, 
+    .info aside h5,
+    .info aside p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .agrupamento {
+        width: 100%;
+        padding: 20px 20px;
+        box-sizing: border-box;
+    }
+
+    .agrupamento article {
+        margin-top: 20px;
+        justify-content: center;
+    }
+
+    .info aside,
+    .info article,
+    .bloco1 aside,
+    .bloco1 article,
+    .bloco2 aside,
+    .bloco2 article,
+    .historia aside {
+        padding: 0;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .info article img,
+    .bloco1 article img,
+    .bloco2 article img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .info aside,
+    .info article,
+    .info section,
+    .agrupamento aside,
+    .agrupamento article,    
+    .agrupamento section,
+    .bloco1 aside,
+    .bloco2 aside,
+    .bloco1 section,
+    .bloco2 section {
+        padding: 3px 20px;
+        box-sizing: border-box;
+    }
+
+    .info aside,
+    .info article,
+    .bloco1 aside,
+    .bloco1 article,
+    .bloco2 aside,
+    .bloco2 article {
+        width: 100%;        
+        text-align: center;
+        padding: 0;
+    }
+
+    .bloco1 article,
+    .bloco2 article {
+        order: 1;        
+        margin-bottom: 40px;
+    }
+
+    .bloco1 aside,
+    .bloco2 aside {
+        order: 2;
+    }
+
+    .listaImagens img {
+        width: 50%;
+        height: 200px;
+    }
+}

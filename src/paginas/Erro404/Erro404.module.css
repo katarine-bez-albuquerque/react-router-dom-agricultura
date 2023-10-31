@@ -1,0 +1,38 @@
+.erro404 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.erro404 aside {
+    width: 100%;
+    max-width: 1200px;
+    padding: 80px 50px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.erro404 h1 {
+    color: #833AB4;
+}
+
+.erro404 h5 {
+    color: #FF0000;
+}
+
+.erro404 p {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+@media(max-width: 786px) {
+    .erro404 aside {
+        padding: 80px 20px;
+        text-align: center;
+    }
+}
